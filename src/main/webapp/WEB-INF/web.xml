@@ -1,0 +1,49 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>Hello</servlet-name>
+    <servlet-class>HelloServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProcessStudent</servlet-name>
+    <servlet-class>ProcessStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ReadStudent</servlet-name>
+    <servlet-class>ReadStudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchName</servlet-name>
+    <servlet-class>SearchNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JsonMaker</servlet-name>
+    <servlet-class>JsonMakerServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Hello</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProcessStudent</servlet-name>
+    <url-pattern>/process-student</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReadStudent</servlet-name>
+    <url-pattern>/read-student</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchName</servlet-name>
+    <url-pattern>/search-name</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JsonMaker</servlet-name>
+    <url-pattern>/json-maker</url-pattern>
+  </servlet-mapping>
+</web-app>
